@@ -1,6 +1,6 @@
 # React JS: Crie testes com Jest e Testing Library e garanta o funcionamento do Front-end
 
-[🌐 App Base para os testes]()
+[🌐 Live Preview do App Base para os testes](https://introducao-jest-react-testing-library-alura.vercel.app/)
 
 Jornada de escrita de testes para a aplicação do Bytebank, uma startup de banco digital que ainda não adotou uma cultura de testes. A missão foi implementação dessa prática fundamental para garantir a qualidade e confiabilidade do código.
 
@@ -19,8 +19,7 @@ Durante esse percurso, foi destacada a importância dos testes no contexto do de
 1. Clone o repositório.
 2. Navegue até o diretório do projeto.
 3. Execute `npm install` para instalar as dependências.
-4. Execute `npm run dev` para iniciar a aplicação localmente.
-5. Acesse a aplicação em `localhost:5173`
+4. Execute `npm run test` para rodar os testes.
 
 ---
 
