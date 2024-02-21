@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# React JS: Crie testes com Jest e Testing Library e garanta o funcionamento do Front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[🌐 App Base para os testes]()
 
-## Available Scripts
+Jornada de escrita de testes para a aplicação do Bytebank, uma startup de banco digital que ainda não adotou uma cultura de testes. A missão foi implementação dessa prática fundamental para garantir a qualidade e confiabilidade do código.
 
-In the project directory, you can run:
+Durante esse percurso, foi destacada a importância dos testes no contexto do desenvolvimento Front-end. Abordado o uso das ferramentas Jest e React Testing Library, explorando sua aplicação prática para testar componentes React. Além disso, simulações de interações do usuário foram criadas, como transferências e depósitos, para criar testes abrangentes e significativos.
 
-### `npm start`
+## Tecnologias usadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- NPM
+- React
+- Typescript
+- Jest
+- React Testing Library
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar o Projeto
 
-### `npm test`
+1. Clone o repositório.
+2. Navegue até o diretório do projeto.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `npm run dev` para iniciar a aplicação localmente.
+5. Acesse a aplicação em `localhost:5173`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Sobre o curso
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Autores do Curso: Alura e Neilton Seguins.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Página do curso](https://cursos.alura.com.br/course/react-js-testes-automatizados-front-end)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Ementa do Curso:**
 
-### `npm run eject`
+- **Importância dos testes no desenvolvimento Front-end**: Compreendimento da relevância dos testes no desenvolvimento de aplicações Front-end e a contribuição para a qualidade e estabilidade do código.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Jest e React Testing Library**: Exploração das ferramentas Jest e React Testing Library.Entendimento de como essas ferramentas podem otimizar a verificação de componentes e funcionalidades.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Escrita de testes automatizados**: Escrita de testes automatizados para a aplicação do Bytebank, uma startup de banco digital. Simulação de funções e comportamentos do usuário, garantindo a cobertura adequada para todas as partes da aplicação.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Testes significativos para componentes e Funcionalidades**: Desenvolvimento de habilidades para escrever testes que façam sentido para cada componente e funcionalidade da aplicação. Adoção de uma abordagem abrangente para garantir a eficácia dos testes em todas as partes do front-end.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Proteção contra Bugs em Produção**: Entendimento de como os testes podem proteger a aplicação em produção, evitando a implantação de códigos que não atendam aos critérios estabelecidos nos testes. Aprendizado de boas práticas para garantir a robustez da aplicação.
