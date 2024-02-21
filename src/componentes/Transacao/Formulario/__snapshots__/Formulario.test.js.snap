@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deve renderizar um campo de selecao e exibir as opções depósito e transferência 1`] = `
+Array [
+  <option
+    value="Depósito"
+  >
+    Depósito
+  </option>,
+  <option
+    value="Transferência"
+  >
+    Transferência
+  </option>,
+]
+`;
